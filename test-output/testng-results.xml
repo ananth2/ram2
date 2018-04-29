@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Found Element By : By.name: username]]>
+    </line>
+    <line>
+      <![CDATA[Value of the:[[FirefoxDriver: firefox on WINDOWS (c3acb548-5ecf-4414-bd80-0e5d6ffecdd9)] -> name: username] before any changes made]]>
+    </line>
+    <line>
+      <![CDATA[Element value changed to: [[FirefoxDriver: firefox on WINDOWS (c3acb548-5ecf-4414-bd80-0e5d6ffecdd9)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[Found Element By : By.name: password]]>
+    </line>
+    <line>
+      <![CDATA[Value of the:[[FirefoxDriver: firefox on WINDOWS (c3acb548-5ecf-4414-bd80-0e5d6ffecdd9)] -> name: password] before any changes made]]>
+    </line>
+    <line>
+      <![CDATA[Element value changed to: [[FirefoxDriver: firefox on WINDOWS (c3acb548-5ecf-4414-bd80-0e5d6ffecdd9)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[Found Element By : By.xpath: //input[contains(@value,'Login')]]]>
+    </line>
+    <line>
+      <![CDATA[Exception occured: org.openqa.selenium.TimeoutException: Timed out waiting for page load.
+Command duration or timeout: 3.48 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LR9WL4N-THINK', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c3acb548-5ecf-4414-bd80-0e5d6ffecdd9]]>
+    </line>
+    <line>
+      <![CDATA[Exception occured:]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20114" started-at="2018-04-29T12:20:53Z" finished-at="2018-04-29T12:21:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20114" started-at="2018-04-29T12:20:53Z" finished-at="2018-04-29T12:21:13Z">
+      <class name="TestCases.LoginTestCase">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.LoginTestCase@3498ed]" name="beforeMethod" is-config="true" duration-ms="14846" started-at="2018-04-29T17:50:53Z" finished-at="2018-04-29T17:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="test1()[pri:0, instance:TestCases.LoginTestCase@3498ed]" name="test1" duration-ms="4977" started-at="2018-04-29T17:51:08Z" finished-at="2018-04-29T17:51:13Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out waiting for page load.
+Command duration or timeout: 3.48 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LR9WL4N-THINK', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c3acb548-5ecf-4414-bd80-0e5d6ffecdd9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out waiting for page load.
+Command duration or timeout: 3.48 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LR9WL4N-THINK', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c3acb548-5ecf-4414-bd80-0e5d6ffecdd9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at uipages.LandingPage.login(LandingPage.java:34)
+	at TestCases.LoginTestCase.test1(LoginTestCase.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.TimeoutException: Timed out waiting for page load.
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LR9WL4N-THINK', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at <anonymous class>.Utils.installClickListener/e<(file:///C:/Users/Admin/AppData/Local/Temp/anonymous5374029875728546354webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9372)
+	at <anonymous class>.WebLoadingListener/e(file:///C:/Users/Admin/AppData/Local/Temp/anonymous5374029875728546354webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:5142)
+	at <anonymous class>.WebLoadingListener/<(file:///C:/Users/Admin/AppData/Local/Temp/anonymous5374029875728546354webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:5150)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Admin/AppData/Local/Temp/anonymous5374029875728546354webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Found Element By : By.name: username]]>
+            </line>
+            <line>
+              <![CDATA[Value of the:[[FirefoxDriver: firefox on WINDOWS (c3acb548-5ecf-4414-bd80-0e5d6ffecdd9)] -> name: username] before any changes made]]>
+            </line>
+            <line>
+              <![CDATA[Element value changed to: [[FirefoxDriver: firefox on WINDOWS (c3acb548-5ecf-4414-bd80-0e5d6ffecdd9)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[Found Element By : By.name: password]]>
+            </line>
+            <line>
+              <![CDATA[Value of the:[[FirefoxDriver: firefox on WINDOWS (c3acb548-5ecf-4414-bd80-0e5d6ffecdd9)] -> name: password] before any changes made]]>
+            </line>
+            <line>
+              <![CDATA[Element value changed to: [[FirefoxDriver: firefox on WINDOWS (c3acb548-5ecf-4414-bd80-0e5d6ffecdd9)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[Found Element By : By.xpath: //input[contains(@value,'Login')]]]>
+            </line>
+            <line>
+              <![CDATA[Exception occured: org.openqa.selenium.TimeoutException: Timed out waiting for page load.
+Command duration or timeout: 3.48 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LR9WL4N-THINK', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c3acb548-5ecf-4414-bd80-0e5d6ffecdd9]]>
+            </line>
+            <line>
+              <![CDATA[Exception occured:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:TestCases.LoginTestCase@3498ed]" name="after" is-config="true" duration-ms="243" started-at="2018-04-29T17:51:13Z" finished-at="2018-04-29T17:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- TestCases.LoginTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

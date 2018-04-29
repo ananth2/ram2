@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite">
+
+	<listeners>
+		<listener class-name="customListner.Listener"></listener>
+		<listener class-name="customListner.RetryListener"></listener>
+		<!-- <listener class-name="customListner.WebEventListener"></listener> -->
+	</listeners>
+
+	<test name="HomePageTest">
+
+		<classes>
+			<!-- <class name="uipages.LandingPage"></class>
+			<class name="uipages.LoginPage"></class>
+			<class name="TestBase.Base"></class> -->
+			<class name="TestCases.LoginTestCase"></class>
+
+		</classes>
+	</test>
+
+</suite>
